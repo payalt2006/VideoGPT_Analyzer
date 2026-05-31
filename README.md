@@ -1,48 +1,189 @@
-# Video Analyzer using Machine Learning
-# Video Analyzer and Chatbot
+# VideoGPT Analyzer
 
+### AI-Powered Video Analysis, Summarization & Chatbot
 
-This project aims to automatically analyze videos and generate summaries using a combination of advanced techniques. Additionally, it creates a chatbot that can answer questions about the video content. The system employs methods such as superframe cuts, motion scores, and uniqueness scores to extract key information from videos and generate concise summaries. The chatbot is trained using these keyframes to provide relevant responses to user queries about the video.
+## Overview
+
+**VideoGPT Analyzer** is an intelligent video understanding system that automatically analyzes video content, extracts meaningful insights, generates concise summaries, and enables interactive question answering through an AI-powered chatbot.
+
+The project combines computer vision, motion analysis, object detection, and natural language processing to transform raw videos into searchable and conversational knowledge.
+
+## Features
+
+* 🎥 Automatic video frame extraction
+* ✂️ Keyframe detection using intelligent scoring mechanisms
+* 🏃 Motion analysis and activity recognition
+* 🎯 Object detection using YOLOv8x
+* 📝 Automated caption generation
+* 🤖 Video-aware chatbot for question answering
+* 📄 Video summarization using keyframe analysis
+
+---
 
 ## Purpose
 
-The purpose of this project is to create a system that can automatically analyze videos, generate summaries, and provide interactive responses to questions about the video content. This system can be applied in various domains, such as educational video summarization, accessibility for individuals with disabilities, or creating engaging video experiences.
+The purpose of this project is to build an intelligent system capable of:
 
+* Automatically understanding video content
+* Generating concise summaries
+* Detecting objects and activities
+* Enabling conversational interaction through a chatbot
 
+This system can be applied in areas such as:
 
-## Implementation
+* Educational video summarization
+* Accessibility support
+* Surveillance and monitoring
+* Smart video search and indexing
+* Interactive video experiences
 
-The project follows a series of steps to analyze videos and train the chatbot:
+---
 
-1. Video Conversion: The video is first converted into individual frames to facilitate further analysis.
+## Project Pipeline
 
-2. Scoring Mechanisms: Each frame is evaluated using scoring mechanisms such as superframe cuts, motion scores, and uniqueness scores. These mechanisms help identify frames with significant content, motion, and uniqueness.
+The project processes videos through the following stages:
 
-3. Keyframe Selection: Frames with the highest scores are selected as keyframes, representing important moments in the video. These keyframes serve as a summary of the video content.
+### 1. Video Frame Extraction
 
-4. Additional Models: Additionaly it has two other methods one for object detection using yolo8x and other for motion detection using model trained using ucf 101.
+The input video is converted into individual frames for detailed analysis and processing.
 
-5. Captions : The detections from all the model are appended in the captions.txt file.
+### 2. Frame Scoring & Analysis
 
-6. Chatbot Training: The keyframes from the captions.txt are used to train a chatbot model. The chatbot learns to generate descriptive text based on the keyframes, enabling it to answer questions and provide information about the video content.
+Each frame is evaluated using multiple scoring techniques:
+
+* **Superframe Cuts** – Detects significant scene transitions
+* **Motion Scores** – Measures movement and dynamic activity
+* **Uniqueness Scores** – Identifies visually distinctive frames
+
+These scoring methods help identify important visual moments within the video.
+
+### 3. Keyframe Selection
+
+Frames receiving the highest combined scores are selected as **keyframes**, representing the most informative content and generating a compact summary of the video.
+
+### 4. Additional Detection Models
+
+The system integrates two advanced models:
+
+### Object Detection
+
+* **YOLOv8x** is used to detect and localize objects in video frames.
+
+### Motion Recognition
+
+* A model trained on the **UCF101 dataset** is used for motion and human activity recognition.
+
+### 5. Caption Generation
+
+Outputs from all models are combined and stored in:
+
+```text
+captions.txt
+```
+
+This file acts as a textual representation of the video content.
+
+### 6. Chatbot Training & Question Answering
+
+The chatbot is trained using the generated captions and extracted keyframe information.
+
+The chatbot can:
+
+* Answer questions about video content
+* Describe scenes and detected activities
+* Provide contextual information from analyzed videos
+
+---
+
+## Tech Stack
+
+* Python
+* OpenCV
+* YOLOv8x
+* UCF101 Motion Recognition Model
+* Jupyter Notebook
+* NLP-based Chatbot
+* Machine Learning & Computer Vision
+
+---
 
 ## Getting Started
 
-To get started with this project, follow these steps:
+Follow these steps to run the project locally.
 
-1. Clone the repository to your local machine.
-2. Navigate to the project directory.
-3. Install the required dependencies by running the following command:pip install -r requirements.txt
-4. Save your Video in video folder and rename it as NYTravel.mp4 as the full code uses it only for the input file additionally you can change the video path also from the code but it would be cumbersome. So only rename it as NYTravel.mp4 only.
-5. Run the following jupyter notebooks and to generate keyframes and train the chatbot:
-                     GetKeyFrames-1
-                     inference-2
-                     chatbot-3
+### 1. Clone Repository
 
-## FULL WORKING CODES WITH MODELS DRIVE LINK: https://drive.google.com/drive/folders/1QuCklGGkYjp1kkgw47df8RaxxzGyhZXK?usp=sharing
+```bash
+git clone <repository-link>
+```
 
-## References
-I took the reference of below cited papers:
-Presented at [2022 Asian Conference on Innovation in Technology (ASIANCON)](https://ieeexplore.ieee.org/xpl/conhome/9908521/proceeding)
+### 2. Install Dependencies
 
-DOI: [10.1109/ASIANCON55314.2022.9909008](https://doi.org/10.1109/ASIANCON55314.2022.9909008)
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Prepare Input Video
+
+Save your video inside the **video/** folder and rename it as:
+
+```text
+NYTravel.mp4
+```
+
+The current implementation uses this filename as the default input.
+
+### 4. Run the Notebooks
+
+Execute the following notebooks in order:
+
+### GetKeyFrames-1
+
+Generates keyframes from the video.
+
+### inference-2
+
+Runs detection models and caption generation.
+
+### chatbot-3
+
+Trains and launches the chatbot.
+
+---
+
+## Full Working Code & Models
+
+Google Drive Link:
+
+https://drive.google.com/drive/folders/1QuCklGGkYjp1kkgw47df8RaxxzGyhZXK?usp=sharing
+
+---
+
+## Research Reference
+
+This project takes inspiration from the following research paper:
+
+**2022 Asian Conference on Innovation in Technology (ASIANCON)**
+
+DOI:
+
+10.1109/ASIANCON55314.2022.9909008
+
+---
+
+## Future Improvements
+
+Potential future enhancements include:
+
+* Real-time video summarization
+* Speech-to-text integration
+* RAG-based conversational retrieval
+* Multi-video understanding
+* Cloud deployment and APIs
+* Multilingual chatbot support
+
+---
+
+## Author
+
+Developed as a Machine Learning and Computer Vision project for intelligent video understanding and conversational AI.
