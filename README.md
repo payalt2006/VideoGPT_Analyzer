@@ -151,14 +151,6 @@ Trains and launches the chatbot.
 
 ---
 
-## Full Working Code & Models
-
-Google Drive Link:
-
-https://drive.google.com/drive/folders/1QuCklGGkYjp1kkgw47df8RaxxzGyhZXK?usp=sharing
-
----
-
 ## Research Reference
 
 This project takes inspiration from the following research paper:
