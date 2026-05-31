@@ -1,0 +1,156 @@
+two males standing woman is talking to touch a man 
+a picture of computer mouses in the room 
+a lap that has a <unk> picture with his pink head 
+a woman with curved signs on a skateboard 
+several men wearing costumes with hats 
+several young men with both one is showing their cell phones 
+a man adjusts his suit and tie 
+a very young woman walking near a lunch display case smiling 
+a person wearing a dress shirt pose for the <unk> 
+a man wearing a nice looking wine by a vest 
+a man is talking on a cellphone 
+a woman holding a video floor and a <unk> in <unk> puts his cell phone 
+a man on a crowded street in their hands 
+a man in the blue shirt pulls a skateboard on a bus with two bags 
+there is a man holding an <unk> showing of people in the sky 
+a woman is <unk> some bedding 
+a man blow <unk> <unk> next to the hat holding a laptop with a slice sits on a chair and keyboard with birthday <unk> their own toy 
+a mother helping two small bears 
+a locomotive that is being displayed on a wooden table 
+a cake might <unk> out 
+a man with a headband looking at the seat of a made peel 
+a man taking pictures at some kind of scissors together 
+several military personnel in uniform having some beverages on <unk> 
+a man feeding a large striped shirt 
+there is a beautiful woman in a black dress is on offering her picture while smiling at her cell phone 
+a woman that is on a fence while a window near a nightstand 
+an old looking place sitting on a dock near a <unk> counter with a shark <unk> on it 
+cats sitting in front of the windowsill 
+a woman sitting at a banquet table 
+a crowd of people are raising their <unk> <unk> in a crowded area in the model parade 
+a dragon shaped birthday cake shaped like a cake as playing on the same <unk> the shape and a tennis ball going on a court 
+a number <unk> birds sitting and smiling with some people 
+this large group of people in a kitchen with plates and a doll house 
+a surfer standing while flying along the side of a rock 
+a man in pink vest talking on a street near a <unk> sign 
+a man and her friends in front of the water 
+a couple of people with one sticking out in the middle of a skate park 
+the the clock shaped rocks grass with plants outside in large animal planter 
+shots of photo of a lot of fruits and clock tower with a busy and is in a field of a lot of posters that are sitting on a lot of different clocks are in old picture of a number of people on laptop sitting on a group of <unk> block surrounded
+two kites wing directions sitting next to a <unk> flag 
+a group of people are sitting on a streets are carrying a tattoo cutting board 
+five <unk> paper with the stage 
+an old photo of a couple of young <unk> dressed young people standing next to a bed 
+a photo of an older man posing for the camera is standing on public event 
+customers are all playing on a luggage 
+a man next to a man and gazes high <unk> a woman's phone 
+a person brushing their finger for a <unk> <unk> 
+a man walks down a fire hydrant 
+a person has a face down together 
+Event
+a picture of a man dressed in a suit and suit and tie and talks on a street 
+a man on big bench standing next to a paper striped shirt is standing outside on a package 
+a woman stands wearing a cell phone while posing for the crowd of <unk> 
+woman sits on a stage 
+a naked man on his skateboard on a busy street 
+a man is making a picture with a briefcase 
+a blonde man dressed young people watch from the end of a table 
+a man and woman by a green cake stand nearby 
+a group of babies with some cake 
+a traditional kitchen with many twin beds in a line to use 
+a picture of a bear wearing a hat 
+this man is while handing another on the bed has a cup and sitting on a chair 
+a woman using a horse mascot 
+a photo displaying many figurines on display artwork hanging up 
+person standing up with designed images of wood 
+someone standing next to two zebra in front of a wall 
+a mother cross candy is smiling 
+women with cell phone 
+a lake combination on display and a blue cake together to sit on the phone 
+a little beautiful woman outside a wall watching a cat shop 
+four guys work on it 
+a large crowd looking at a tall <unk> crowd looking at an audience 
+a crowd of people on the sidewalk 
+them are lined up in sheep in kitchen 
+there is a dog on a rock in the two hands while holding a huge rock in front of a billboard 
+pastries are crossing a city 
+a large white model of a birthday multi colored chick in front of a giant frog balloon 
+two identical pictures of a crowd of kids sitting on a table 
+three people are on a variety of small teddy bear 
+two men and a suit cutting semi as a man in a mirror 
+people sitting under a crowd looking down 
+a woman in costume standing next to her head while a polka dotted has a kid on her cellphone with green things to use of a hotdog 
+a man and other people watch for the <unk> features the camera while waiting for a crowd of speakers 
+two men standing holding a cellphone 
+a woman wearing an indian has a large stack of people 
+a man in a suit in talking as he <unk> holding a hot dog 
+this is a man touching a vest and smiling as they are observing a group of people crowding around it 
+Total classes detected: 40
+The count for boat is 73
+The count for potted plant is 45
+The count for umbrella is 8
+The count for person is 932
+The count for bicycle is 26
+The count for book is 11
+The count for backpack is 25
+The count for bottle is 52
+The count for cell phone is 21
+The count for chair is 389
+The count for cup is 44
+The count for tie is 76
+The count for suitcase is 4
+The count for handbag is 49
+The count for toothbrush is 4
+The count for pizza is 1
+The count for kite is 3
+The count for car is 44
+The count for cake is 2
+The count for bus is 7
+The count for banana is 5
+The count for apple is 1
+The count for stop sign is 7
+The count for baseball bat is 1
+The count for bowl is 7
+The count for dining table is 114
+The count for laptop is 17
+The count for tennis racket is 1
+The count for tv is 2
+The count for vase is 49
+The count for wine glass is 7
+The count for remote is 7
+The count for couch is 15
+The count for sink is 1
+The count for motorcycle is 4
+The count for orange is 1
+The count for donut is 3
+The count for clock is 2
+The count for carrot is 1
+The count for knife is 1
+Detected  hopscotch motion with percentage 99.90447998046875% in video at timestamp 166 
+Detected  hopscotch motion with percentage 99.99283599853516% in video at timestamp 176 
+Detected  hopscotch motion with percentage 99.96817016601562% in video at timestamp 186 
+Detected  hopscotch motion with percentage 99.880615234375% in video at timestamp 196 
+Detected  hopscotch motion with percentage 94.18315124511719% in video at timestamp 206 
+Detected  cleaning pool motion with percentage 76.95372772216797% in video at timestamp 122 
+Detected  cleaning pool motion with percentage 90.6995620727539% in video at timestamp 132 
+Detected  cleaning pool motion with percentage 70.56285858154297% in video at timestamp 142 
+Detected  cleaning pool motion with percentage 52.26890563964844% in video at timestamp 152 
+Detected  cleaning pool motion with percentage 57.492332458496094% in video at timestamp 162 
+Detected  cleaning windows motion with percentage 84.17986297607422% in video at timestamp 375 
+Detected  giving or receiving award motion with percentage 50.887638092041016% in video at timestamp 580 
+Detected  skydiving motion with percentage 52.8709716796875% in video at timestamp 822 
+Detected  skateboarding motion with percentage 74.08557891845703% in video at timestamp 826 
+Detected  cleaning pool motion with percentage 85.22650909423828% in video at timestamp 592 
+Detected  cleaning pool motion with percentage 89.06034088134766% in video at timestamp 602 
+Detected  skydiving motion with percentage 63.036685943603516% in video at timestamp 912 
+Detected  texting motion with percentage 55.723594665527344% in video at timestamp 985 
+Detected  unboxing motion with percentage 50.28648376464844% in video at timestamp 1011 
+Detected  eating chips motion with percentage 57.984901428222656% in video at timestamp 772 
+Detected  hopscotch motion with percentage 83.09117126464844% in video at timestamp 856 
+Detected  riding unicycle motion with percentage 70.37259674072266% in video at timestamp 1445 
+Detected  hopscotch motion with percentage 58.21043395996094% in video at timestamp 1576 
+Detected  hopscotch motion with percentage 91.13578796386719% in video at timestamp 1686 
+Detected  hopscotch motion with percentage 72.93187713623047% in video at timestamp 1696 
+Detected  smoking motion with percentage 60.671722412109375% in video at timestamp 1896 
+Detected  hopscotch motion with percentage 95.91834259033203% in video at timestamp 1806 
+Detected  flying kite motion with percentage 62.51679229736328% in video at timestamp 1870 
