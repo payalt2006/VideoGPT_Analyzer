@@ -1,0 +1,16 @@
+nltk
+numpy
+matplotlib
+scikit-learn
+Pillow
+imageio
+opencv-python
+tensorflow
+git+https://github.com/tensorflow/docs
+ultralytics
+supervision
+openai
+pinecone-client
+datasets
+torch
+transformers
